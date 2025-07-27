@@ -6,7 +6,7 @@ This project is a fully functional, responsive **Products Gallery Web Applicatio
 
 ---
 ## 🎯 Demo
-- **link:** [YouTube([https://fakestoreapi.com/](https://youtu.be/67TE5PNL6OU?si=8UcGo-F0DWeJgAQ8))
+- **link:** [YouTube](https://youtu.be/67TE5PNL6OU?si=8UcGo-F0DWeJgAQ8)
 
 
 ## 🧱 Tech Stack Used
