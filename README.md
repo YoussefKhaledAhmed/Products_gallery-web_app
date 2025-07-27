@@ -30,7 +30,6 @@ This project is a fully functional, responsive **Products Gallery Web Applicatio
 - **Filtering & Sorting:**  
   - Real-time search by product title (case-insensitive)  
   - Sort options:  
-    - Price: Low to High / High to Low  
     - Name: A–Z
 
 ---
@@ -51,7 +50,6 @@ This project is a fully functional, responsive **Products Gallery Web Applicatio
 
 ## 💅 Optional Enhancements
 
-- ✅ Dark Mode Toggle  
 - ✅ Product Rating Display (stars based on API rating)
 
 ---
