@@ -8,7 +8,7 @@ This project is a fully functional, responsive **Products Gallery Web Applicatio
 
 ## 🧱 Tech Stack Used
 
-- **Framework:** Angular v16+
+- **Framework:** Angular v19
 - **Styling:** Tailwind CSS
 - **API:** [Fake Store API](https://fakestoreapi.com/)
 - **Language:** TypeScript, HTML
