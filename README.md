@@ -5,7 +5,7 @@
 This project is a fully functional, responsive **Products Gallery Web Application** built using **Angular** and styled with **Tailwind CSS**. It allows users to browse, filter, sort, and view product details using data from the Fake Store API.
 
 ---
-## 🎯 Demo
+## 🎥 Demo
 - **link:** [YouTube](https://youtu.be/67TE5PNL6OU?si=8UcGo-F0DWeJgAQ8)
 
 
