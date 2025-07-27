@@ -1,4 +1,70 @@
-<<<<<<< HEAD
+# 🛍️ Products Gallery Web Application
+
+## 🎯 Objective
+
+This project is a fully functional, responsive **Products Gallery Web Application** built using **Angular** and styled with **Tailwind CSS**. It allows users to browse, filter, sort, and view product details using data from the Fake Store API.
+
+---
+
+## 🧱 Tech Stack Used
+
+- **Framework:** Angular v16+
+- **Styling:** Tailwind CSS
+- **API:** [Fake Store API](https://fakestoreapi.com/)
+- **Language:** TypeScript, HTML
+
+---
+
+## 🖼️ Features
+
+### ✅ Products Page
+
+- **Data Fetching:**  
+  - Fetched all products from `https://fakestoreapi.com/products`
+  - Error handling with fallback UI for API failures
+
+- **Display Product Cards:**  
+  - Each card includes Product Name and Product Image  
+  - Clicking a card routes to the Product Details page
+
+- **Filtering & Sorting:**  
+  - Real-time search by product title (case-insensitive)  
+  - Sort options:  
+    - Price: Low to High / High to Low  
+    - Name: A–Z
+
+---
+
+### 📄 Product Details Page
+
+- **Dynamic Routing:**  
+  - Implemented route: `/products/:id`
+
+- **Displayed Info:**  
+  - Product Name  
+  - Full Description  
+  - Product Image  
+  - Price  
+  - Category
+
+---
+
+## 💅 Optional Enhancements
+
+- ✅ Dark Mode Toggle  
+- ✅ Product Rating Display (stars based on API rating)
+
+---
+
+## 🚀 Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+
 # ProductsGalleryWebApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
