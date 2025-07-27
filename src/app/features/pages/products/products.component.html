@@ -1,0 +1,15 @@
+<div class="p-3">
+    <div class="flex justify-between mt-8 translate-y-[5px]">
+        <div class="flex-grow flex justify-center">
+            <div class="w-fit p-2 px-5 flex flex-col justify-center items-center rounded-md shadow-top-left-right-md bg-sky-50">
+                <label for="searchProduct" class="text-sky-600">Search</label>
+                <input id="searchProduct" class="h-8 rounded-md hover:bg-gray-50 focus:ring-2 focus:ring-sky-200 focus:border-sky-500" [(ngModel)]="searchVal" type="text"/>
+            </div>
+        </div>
+    </div>
+    <div class="mb-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-col-5  border border-gray-100 rounded-bl-md rounded-br-md shadow-md bg-gradient-to-b from-sky-50 to-white">
+        @for (product of allProducts | search : searchVal | sortAZ : 'title'; track $index) {
+            <app-product [product]="product"></app-product>
+        }
+    </div>
+</div>
